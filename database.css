@@ -1,0 +1,125 @@
+@media all {
+    div#bookmarks {
+        display: block;
+    }
+    .header {
+        background-color:rgb(37, 37, 37);
+        color: white;
+        display: inline-flex
+    }
+    span#hdr-rowid,
+    span.row-rowid {
+        width: 100px;
+    }
+    span#hdr-incident_info,
+    span.row-incident_info {
+        width: 200px;
+    }
+    span#hdr-description,
+    span.row-description {
+        width: 200px;
+    }
+    span#hdr-start_dt,
+    span.row-start_dt {
+        width: 200px;
+    }
+    span#hdr-longitude,
+    span.row-longitude {
+        width: 200px;
+    }
+    span#hdr-latitude,
+    span.row-latitude {
+        width: 200px;
+    }
+    span#hdr-count,
+    span.row-count {
+        width: 50px;
+    }
+    span#hdr-id,
+    span.row-id {
+        width: 300px;
+    }
+    span#hdr-url,
+    span.row-url {
+        width: 400px;
+    }
+    span#hdr-quadrant,
+    span.row-quadrant {
+        width: 200px;
+    }
+    span#hdr-camera_location,
+    span.row-camera_location {
+        width: 200px;
+    }
+    span#hdr-sector,
+    span.row-sector {
+        width: 200px;
+    }
+    span#hdr-community_name,
+    span.row-community_name {
+        width: 200px;
+    }
+    span#hdr-group_category,
+    span.row-group_category {
+        width: 200px;
+    }
+    span#hdr-category,
+    span.row-category {
+        width: 200px;
+    }
+    span#hdr-resident_count,
+    span.row-resident_count {
+        width: 200px;
+    }
+    span#hdr-date,
+    span.row-date {
+        width: 200px;
+    }
+    span#hdr-permitnum,
+    span.row-permitnum {
+        width: 200px;
+    }
+    span#hdr-locationaddresses,
+    span.row-locationaddresses {
+        width: 200px;
+    }
+    span#hdr-estprojectcost,
+    span.row-estprojectcost {
+        width: 200px;
+    }
+    span#hdr-communityname,
+    span.row-communityname {
+        width: 200px;
+    }
+    span#hdr-google,
+    span.row-google {
+        width: 200px;
+    }
+
+    .row {
+        display: inline-flex;
+        margin-bottom: 20px;
+    }
+    .even-row {
+        background-color:rgb(170, 185, 190);
+    }
+    table {
+        
+            border: 1px solid black;
+            box-shadow: 2px 2px 12px darkslategrey;
+            width: 370px;
+            min-width: 370px;
+            padding: 20px;
+            margin-bottom: 10px;
+        
+    }
+    body {
+        background-color: beige;
+    }
+
+    h1 {
+        font-family: 'Anton', sans-serif;
+        font-size: 400%;
+        text-shadow: 5px 5px 10px gray;
+    }
+}

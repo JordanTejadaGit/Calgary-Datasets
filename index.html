@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Part A</title>
+<script type='text/javascript' src='index.JS'></script>
+<script type='text/javascript' src='TrafficIncidents.JS'></script>
+<script type='text/javascript' src='StandardJSFunctions.js'></script>
+<script type='text/javascript' src='TrafficCameras.JS'></script>
+<script type='text/javascript' src='CrimeStats.JS'></script>
+<script type='text/javascript' src='BuildingPermits.JS'></script>
+<link type='text/css' rel='stylesheet' href='database.css'>
+</head>
+<body>
+    <header>
+        <h1>Calgary Database</h1>
+    </header>
+    <div id="selectionbox">
+    <form>
+        <table>
+            <tr>
+                <td colspan="4">
+                    <label><h2>Choose Data</h2></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Traffic Incidents</label>
+                    <input type="radio" id="Traffic Incidents" name ="selection" value="Traffic Incidents" onchange="InitializeWebPageTrafficIncidents();">
+                </td>
+                <td>
+                    <label>Traffic Cameras</label>
+                    <input type="radio" id="Traffic Cameras" name ="selection" value="Traffic Cameras" onchange="InitializeWebPageTrafficCameras();">
+                </td>
+                <td>
+                    <label>Crime Stats</label>
+                    <input type="radio" id="Crime Stats" name ="selection" value="Crime Stats" onchange="InitializeWebPageCrimeStats();">
+                </td>
+                <td>
+                    <label>Building Permits</label>
+                    <input type="radio" id="Building Permits" name ="selection" value="Building Permits" onchange="InitializeWebPageBuildingPermits();">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    <div id="outputform" class="hidden">
+        <span id="dataOutput"></span>
+    </div>
+</body>
+</html>

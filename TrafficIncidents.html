@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Traffic Incidents</title>
+<script type='text/javascript' src='TrafficIncidents.JS'></script>
+<link type='text/css' rel='stylesheet' href='database.css'>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <h3>
+                        Search Data
+                    </h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>ID</label>
+                </td>
+                <td>
+                    <input type="text" id="idSearch" name="idSearch">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Incident Street</label>
+                </td>
+                <td>
+                    <input type="text" id="incidentLocation" name="incidentLocation">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Incident Desccription</label>
+                </td>
+                <td>
+                    <input type="text" id="incidentDescription" name="incidentDescription">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div id="SearchResults"></div>
+</body>
+</html>
