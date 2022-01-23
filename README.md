@@ -1,13 +1,13 @@
-#Calgary Datasets
-##Deployed
+# Calgary Datasets
+## Deployed
 https://jordantejadagit.github.io/Calgary-Datasets/
-##What is it?
+## What is it?
 Final project for class
-##What can it do?
+## What can it do?
 Able to show current data of traffic incidents, traffic cameras, crime stats, and building permits within Calgary.
-##How was it made?
+## How was it made?
 HTML and CSSS while using xml to grab json files from https://data.calgary.ca/browse?sortBy=newest. JavaScript to output the data to the front-end
-##How to use it?
+## How to use it?
 Pick a dataset to use then start filtering data.
 Example: 
 ![image](https://user-images.githubusercontent.com/84684944/150671888-b3e5b1d8-9017-447f-84de-c47d1df298d9.png)
