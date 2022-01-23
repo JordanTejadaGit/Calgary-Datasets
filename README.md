@@ -1,5 +1,5 @@
 # Calgary Datasets
-## Deployed
+### Deployed
 https://jordantejadagit.github.io/Calgary-Datasets/
 ## What is it?
 Final project for class
@@ -13,7 +13,7 @@ Example:
 ![image](https://user-images.githubusercontent.com/84684944/150671888-b3e5b1d8-9017-447f-84de-c47d1df298d9.png)
 Get current traffic camera:
 ![image](https://user-images.githubusercontent.com/84684944/150671912-8ea904c6-820f-45f8-8733-542f305169d7.png)
-## Notes:
+### Notes:
 * **MIGHT TAKE A FEW SECONDS TO LOAD DATA**
 * Free to pull
 * Styling outdated, marks were based on functionality then aesthetics
