@@ -139,3 +139,5 @@ function registerListeners() {
     }
 
 }
+
+alert("Takes a few seconds for the database to load. Please wait a few seconds before searching for data.")
