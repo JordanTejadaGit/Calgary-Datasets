@@ -6,7 +6,7 @@ Final project for class
 ## What can it do?
 Able to show current data of traffic incidents, traffic cameras, crime stats, and building permits within Calgary.
 ## How was it made?
-HTML and CSSS while using xml to grab json files from https://data.calgary.ca/browse?sortBy=newest. JavaScript to output the data to the front-end
+HTML and CSS while using xml to grab json files from https://data.calgary.ca/browse?sortBy=newest. JavaScript to output the data to the front-end
 ## How to use it?
 Pick a dataset to use then start filtering data.
 Example: 
